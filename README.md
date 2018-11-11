@@ -4,10 +4,15 @@
 
 [![Docker Automated buil](https://img.shields.io/docker/automated/jrottenberg/ffmpeg.svg)](https://hub.docker.com/r/vladgolubev/dot2png/)
 
+## Build
+```bash
+$ docker build -t graphviz-convert-png .
+```
+
 ## Usage
 
 ```bash
-$ cat file.dot | docker container run --rm -i vladgolubev/dot2png > file.png
+$ cat file.dot | docker container run --rm -i graphviz-convert-png > file.png
 ```
 
 ## Help
