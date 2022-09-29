@@ -1,4 +1,4 @@
-FROM alpine:3.5
+FROM alpine:3.16.2
 
 RUN mkdir /graphviz && \
   apk add --update graphviz ttf-dejavu && \
